@@ -1,0 +1,1 @@
+{"apisix_http_latency_count": {"apisix_1": {"172.17.0.10": {"request": 15003, "apisix": 15003, "upstream": 15003}}}, "apisix_http_status": {"apisix_1": {"172.17.0.10": {"200": 15003}}}, "apisix_bandwidth": {"apisix_1": {"172.17.0.10": {"ingress": 1920397, "egress": 2490498}}}}
