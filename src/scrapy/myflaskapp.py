@@ -39,7 +39,7 @@ def get_data():
 
 
 @app.route('/api/trigger', method=['GET'])
-def get_data():
+def trigger():
     trigger_daily_fetch_job()
     print("fetch job triggered")
     response = {'success': 'true', 'message': "OK"}

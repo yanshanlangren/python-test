@@ -11,7 +11,7 @@ headers = {
                   '(KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36'
 }
 
-data_dir = 'c:\\Users\\Elvis\\Desktop\\data\\'
+data_dir = 'C:\\Users\\Elvis\\Desktop\\data\\'
 
 
 def get_page(url):
@@ -177,8 +177,10 @@ def get_data_from_csv(date=time.strftime('%Y-%m-%d', time.localtime())):
     df = pd.read_csv(file_name)
     return json.loads(df.to_json())
 
+print('a'
+      'b')
 
-# scrapy_daily_stock_info(1, 232)
+scrapy_daily_stock_info(1, 232)
 # df = get_data_from_csv()
 # code = 600218
 # res = {}
